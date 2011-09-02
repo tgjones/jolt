@@ -1,4 +1,5 @@
 ﻿using System;
+using Jolt.Particles;
 using NUnit.Framework;
 using Nexus;
 
@@ -8,7 +9,7 @@ namespace Jolt.Tests
 	public class ParticleTests
 	{
 		[Test]
-		 public void CanCreateParticle()
+		public void CanCreateParticle()
 		{
 			Assert.DoesNotThrow(() => new Particle());
 		}

@@ -43,12 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Particle.cs" />
+    <Compile Include="Particles\Forces\ParticleAnchoredBungee.cs" />
+    <Compile Include="Particles\Forces\ParticleAnchoredSpring.cs" />
+    <Compile Include="Particles\Forces\ParticleBungee.cs" />
+    <Compile Include="Particles\Forces\ParticleBuoyancy.cs" />
+    <Compile Include="Particles\Forces\ParticleSpring.cs" />
+    <Compile Include="Particles\Particle.cs" />
+    <Compile Include="Particles\Forces\ParticleDrag.cs" />
+    <Compile Include="Particles\Forces\ParticleForceGenerator.cs" />
+    <Compile Include="Particles\Forces\ParticleGravity.cs" />
+    <Compile Include="Particles\ParticleWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

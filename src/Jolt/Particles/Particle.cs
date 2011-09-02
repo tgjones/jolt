@@ -1,7 +1,7 @@
 ﻿using System;
 using Nexus;
 
-namespace Jolt
+namespace Jolt.Particles
 {
 	public class Particle
 	{
